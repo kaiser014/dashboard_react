@@ -1,0 +1,48 @@
+.weekly-item-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.weekly-date{
+    width: 15%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 20px;
+    border-right: 4px solid #232323;
+}
+.weekly-date h2{
+    font-size: 28px;
+    color: #232323;
+}
+.weekly-date h6{
+    font-size: 16px;
+    color: #232323;
+}
+.weekly-content{
+    padding-left: 30px;
+    width: 70%;
+}
+.weekly-content h5{
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #232323;
+}
+.weekly-content img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-left: -5px;
+}
+.weekly-button{
+    width: 15%;
+}
+.weekly-btn{
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    color: #493971;
+    font-weight: 500;
+    padding: 8px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

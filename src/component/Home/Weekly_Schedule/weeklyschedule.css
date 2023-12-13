@@ -1,0 +1,23 @@
+.title{
+    margin-bottom: 15px;
+}
+.title h5{
+    font-size: 24px;
+}
+.weekly-schedule-content{
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 16px;
+}
+.wsc-item1{
+    background: linear-gradient(0.25turn, #b1e0ff, #197cbe);
+}
+.wsc-item2{
+    background: linear-gradient(0.25turn, #f7dca3, #c28c18);
+}
+.wsc-item3{
+    background: linear-gradient(0.25turn, #a0fff7, #19bea8);
+}
+.wsc-item4{
+    background: linear-gradient(0.25turn, #ffb8dc, #e43f91);
+}

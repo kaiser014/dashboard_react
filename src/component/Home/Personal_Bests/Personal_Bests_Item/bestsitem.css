@@ -1,0 +1,32 @@
+.single-item{
+    background-color: #f7b6ff;
+    padding: 0px 10px;
+    text-align: center;
+    height: 190px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.single-item h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.di-item{
+    border-radius: 15px;
+    padding: 10px;
+}
+.di-item1{
+    background-color: #ffefe2;
+}
+.di-item2{
+    background-color: #cefdf2;
+}
+.di-item-image{
+    text-align: end;
+}
+.di-item-image img{
+    width: 70px;
+    height: 70px;
+}

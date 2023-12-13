@@ -1,0 +1,88 @@
+.navbar-background{
+    background-color: #493971;
+    min-height: 100vh;
+}
+.navbar{
+    display: block;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0;
+    margin: 0;    
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 30px 0px 0px 30px;
+}
+.navbar-expand .navbar-collapse {
+    display: block!important;
+    flex-basis: auto;
+    margin-top: 30px;
+}
+.navbar-nav{
+    display: block;
+    padding-left: 30px;
+}
+.navlink-icon{
+    margin-right: 10px;
+}
+.nav-link {
+    color: #fff;
+    margin: 20px 0;
+    position: relative;
+    transition: .3s all ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #232323;
+    background-color: #fff;
+    width: 100%;
+    transition: .3s all ease-in-out;
+}
+.nav-link:before,
+.nav-link:after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    bottom: 0;
+    background:radial-gradient(circle at top left, #fff0 72%, #fff 75%);
+    transition: .3s all ease-in-out;
+}
+
+.nav-link:after {
+    right: 0;
+    top:100%;
+    background:radial-gradient(circle at bottom left, #fff0 70%, #fff 75%);
+}
+
+.nav-link:before {
+    bottom:100%;
+    right: 0;
+}
+.nav-link:hover.nav-link:after,
+.nav-link:hover.nav-link:before{
+    height: 20px;
+    width: 20px;
+    transition: .3s all ease-in-out;
+}
+.nav-link:focus.nav-link:after,
+.nav-link:focus.nav-link:before{
+    height: 20px;
+    width: 20px;
+    transition: .3s all ease-in-out;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #232323;
+    background-color: #fff;
+    width: 100%;
+    transition: .3s all ease-in-out;
+}
+.navbar-nav .nav-link.active.nav-link:after 
+.navbar-nav .nav-link.active.nav-link:before {
+    height: 20px;
+    width: 20px;
+    transition: .3s all ease-in-out;
+}
