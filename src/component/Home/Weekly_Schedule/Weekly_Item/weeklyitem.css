@@ -1,10 +1,10 @@
 .weekly-item-section{
     display: flex;
     align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
 }
 .weekly-date{
-    width: 15%;
+    flex-basis: 15%;
     text-transform: uppercase;
     text-align: center;
     padding-right: 20px;
@@ -20,7 +20,7 @@
 }
 .weekly-content{
     padding-left: 30px;
-    width: 70%;
+    flex-basis: 70%;
 }
 .weekly-content h5{
     margin-bottom: 3px;
@@ -35,7 +35,7 @@
     margin-left: -5px;
 }
 .weekly-button{
-    width: 15%;
+    flex-basis: 15%;
 }
 .weekly-btn{
     background-color: #fff;
@@ -46,3 +46,90 @@
     padding: 8px 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .weekly-date {
+        flex-basis: 20%;
+        text-transform: uppercase;
+        text-align: center;
+        padding-right: 0px;
+        border-right: 3px solid #232323;
+    }
+    .weekly-date h2 {
+        font-size: 20px;
+    }
+    .weekly-date h6 {
+        font-size: 14px;
+    }
+    .weekly-content {
+        padding-left: 15px;
+        flex-basis: 52%;
+    }
+    .weekly-content h5 {
+        font-size: 16px;
+    }
+    .weekly-content img {
+        width: 20px;
+        height: 20px;
+    }
+    .weekly-button {
+        flex-basis: 28%;
+        text-align: end;
+    }
+    .weekly-btn {
+        padding: 6px 18px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .weekly-date {
+        flex-basis: 20%;
+        text-transform: uppercase;
+        text-align: center;
+        padding-right: 0px;
+        border-right: 3px solid #232323;
+    }
+    .weekly-date h2 {
+        font-size: 22px;
+    }
+    .weekly-date h6 {
+        font-size: 15px;
+    }
+    .weekly-content {
+        padding-left: 25px;
+        flex-basis: 60%;
+    }
+    .weekly-content h5 {
+        font-size: 17px;
+    }
+    .weekly-content img {
+        width: 22px;
+        height: 22px;
+    }
+    .weekly-button {
+        flex-basis: 20%;
+        text-align: end;
+    }
+    .weekly-btn {
+        padding: 6px 24px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .weekly-content {
+        padding-left: 15px;
+        flex-basis: 50%;
+    }
+    .weekly-button {
+        flex-basis: 30%;
+        text-align: end;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */

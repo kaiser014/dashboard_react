@@ -1,0 +1,13 @@
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar-username h6{
+    font-size: 14px;
+}
+.topbar-profilepic img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}

@@ -1,0 +1,60 @@
+.friends-card{
+    background-color: #fff;
+    padding: 5px 7px;
+    border-radius: 10px;
+    margin-top: 8px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 5px;
+}
+.fc-heading{
+    margin-bottom: 3px;
+}
+.fc-heading img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.fc-heading span{
+    font-size: 14px;
+}
+.fc-image{
+    height: 120px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.fc-image img{
+    width: 100%;
+}
+.fc-content p{
+    margin-top: 3px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 992px) {
+    .fc-content p {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .friends-card {
+        background-color: #fff;
+        padding: 5px 7px;
+        border-radius: 10px;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 5px;
+    }
+    .fc-image {
+        height: 88px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .fc-image {
+        height: 115px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+}

@@ -1,7 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import 'react-circular-progressbar/dist/styles.css';
 import Routing from './routing/Routing';
+import './App.css';
 
 function App() {
   return (

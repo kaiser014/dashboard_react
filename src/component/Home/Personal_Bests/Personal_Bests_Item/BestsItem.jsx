@@ -5,11 +5,12 @@ const BestsItem = () => {
   return (
     <div>
         <div className='single-item'>
-            <h5>Fastest 5K Run: 22min </h5>
+            <h5>Fastest 5K Run: 22min</h5>
+            <img src='https://cdn-icons-png.flaticon.com/512/6669/6669767.png' alt='cycling'/> 
         </div>
         <div className='double-item'>
             <Row>
-                <Col lg={6}>
+                <Col lg={12} xl={6}>
                     <div className='di-item di-item1'>
                         <p>Longest Distance Cycle: 4 miles</p>
                         <div className='di-item-image'>
@@ -17,7 +18,7 @@ const BestsItem = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={12} xl={6}>
                     <div className='di-item di-item2'>
                         <p>Longest Rollers-Skating: 2 hours</p>
                         <div className='di-item-image'>

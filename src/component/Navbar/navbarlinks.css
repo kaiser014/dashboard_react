@@ -1,6 +1,8 @@
 .navbar-background{
     background-color: #493971;
     min-height: 100vh;
+    position: fixed;
+    width: inherit;
 }
 .navbar{
     display: block;
@@ -12,10 +14,13 @@
     padding: 0;
     margin: 0;    
 }
+.navbar-brand img{
+    width: 100%;
+}
 .navbar-expand .navbar-nav .nav-link {
     padding: 10px 40px;
     font-size: 17px;
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 20px 0px 0px 20px;
 }
 .navbar-expand .navbar-collapse {
     display: block!important;
@@ -85,4 +90,71 @@
     height: 20px;
     width: 20px;
     transition: .3s all ease-in-out;
+}
+
+/* Responsive CSS */
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .navlink-name{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 40px;
+    }
+    .navbar-nav{
+        padding-left: 5px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: center;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .navlink-name{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 40px;
+    }
+    .navbar-nav{
+        padding-left: 5px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: center;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .navlink-name{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: start;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .navbar-nav{
+        padding-left: 12px;
+    }
+    .navbar-brand img{
+        width: 60px;
+    }
+ }
+   
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar-nav{
+        padding-left: 25px;
+    }
+    .navlink-name{
+        font-size: 16px;
+    }
 }

@@ -1,0 +1,88 @@
+.active-calories-card{
+    background-color: #D6E3F8;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.active-calories-progressbar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ac-progressbar,
+.ac-content{
+    flex-basis: auto;
+}
+.ac-circular-progressbar{
+    width: 70px;
+    height: 70px;
+}
+.ac-content{
+    padding-left: 5px;
+}
+.ac-content ul{
+    list-style: none;
+}
+.ac-content ul li{
+    font-size: 14px;
+}
+.ac-content ul li span{
+    font-weight: 600;
+}
+
+
+/* Responsive CSS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .active-calories-progressbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ac-progressbar,
+    .ac-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ac-content{
+        margin-top: 10px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .active-calories-progressbar {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .ac-progressbar,
+    .ac-content{
+        flex-basis: auto;
+    }
+    .ac-content{
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {} */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .ac-content {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    .active-calories-card{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+ }
+   
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

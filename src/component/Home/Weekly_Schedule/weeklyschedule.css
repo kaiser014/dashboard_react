@@ -21,3 +21,55 @@
 .wsc-item4{
     background: linear-gradient(0.25turn, #ffb8dc, #e43f91);
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .weekly-schedule-content {
+        margin-top: 10px;
+        padding: 8px 8px;
+        border-radius: 10px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .weekly-schedule-content {
+        margin-top: 10px;
+        padding: 8px 8px;
+        border-radius: 10px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {} */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .weekly-personal{
+        margin-top: 12px;
+    }
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    .title{
+        margin-bottom: 10px;
+    }
+    .title h5{
+        font-size: 20px;
+    }
+    .weekly-schedule-content{
+        margin-top: 6px;
+        padding: 8px 20px;
+        border-radius: 16px;
+    }
+} */
+
+/* @media(max-width: 767px){
+    .weekly-schedule-content {
+        margin-top: 10px;
+        padding: 8px 8px;
+        border-radius: 10px;
+    }
+} */
